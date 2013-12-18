@@ -14,8 +14,8 @@ and nuances of your environment in a format which you can maintain.
 
 ## Usage
 
-By default, `dockit` looks for a config.json file in your current directory, connects using unix:///var/run/docker.sock, and keeps track
-of running containers with "pid" files in /var/run/dockit-containers.
+By default, `dockit` looks for a `config.json` file in your current directory, connects using `unix:///var/run/docker.sock`, and keeps track
+of running containers with "pid" files in `/var/run/dockit-containers`.
 
 You can define services for your environment in the config file, and specify ports, environment variables, and dependancy services 
 (which are translated into links.)
