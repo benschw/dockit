@@ -1,0 +1,18 @@
+{
+	"Hipache" : {
+		"Image" : "stackbrew/hipache",
+		"Ports" : {
+			"80" : "80",
+			"6379" : ""
+		}
+		
+	}, "WebApp" : {
+		"Image" : "benschw/go-webapp",
+		"Deps" : [
+			"Hipache"
+		],
+		"Env" : {
+			"HOST" : "webapp.local"
+		}
+	}
+}
