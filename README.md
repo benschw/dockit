@@ -1,6 +1,7 @@
 # dockit
 
-_Orchestrating docker with go_
+[Orchestrating docker with go](http://txt.fliglio.com/2013/12/orchestrating-docker-with-go/)
+
 
 This is not supposed to be a general-purpose tool, but an example of how wiring up Docker environments using go is...
 
